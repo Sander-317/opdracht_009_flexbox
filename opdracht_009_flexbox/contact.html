@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>contact</title>
+</head>
+
+<body>
+    <header class="black-border">
+        <nav class="black-border">
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">blog</a></li>
+                <li><a href="https://google.com" target="blank">ga naar google</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="black-border">
+        <form name="contact" method="POST" data-netlify="true" class="black-border">
+            <p>
+                <label for="name">Naam: <input type="text" name="name" id="name" /></label>
+            </p>
+            <p>
+                <label for="email">Email: <input id="email" type="email" name="email" /></label>
+            </p>
+            <p>
+                <label for="tel">Telefoonnummer: <input id="tel" type="tel" name="tel"></label>
+            </p>
+            <p>
+                <label for="age">Leeftijd<input id="age" type="number" name="age"></label>
+            </p>
+            <p>
+                <label for="Geboorte datum">Geboorte datum:<input id="Beboorte datum" type="date"
+                        naam="Geboorte datum"></label>
+            </p>
+            <p>
+                <label for="gender">Geslacht:<br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Man</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Vrouw</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Anders</label>
+                </label>
+            </p>
+
+            <p>
+                <label>Favoriete cuisine:<br>
+                    <input type="checkbox" id="cuisine1" name="cuisine1" value="Frans">
+                    <label for="cuisine1"> Frans</label><br>
+                    <input type="checkbox" id="cuisine2" name="cuisine2" value="Italiaans">
+                    <label for="cuisine2"> Italiaans</label><br>
+                    <input type="checkbox" id="cuisine3" name="cuisine3" value="Spaans">
+                    <label for="cuisine3"> Spaans</label><br>
+                    <input type="checkbox" id="cuisine4" name="cuisine4" value="Arabisch">
+                    <label for="cuisine4"> Arabisch</label>
+                </label>
+            </p>
+            <p>
+                <label for="color">Wat is je favoriete kleur: <br><input id="color" type="color" naam="color"></label>
+            </p>
+
+            <p>
+                <label>Biografie: <br> <textarea name="biografie" rows="10" cols="30"></textarea></label>
+            </p>
+            <p>
+                <label>Upload bestand: <br> <input type="file" id="uploadfile" naam="uploadfile"></label>
+            </p>
+            <p>
+                <label>URL: <br><input type="url" naam="url"></label>
+            </p>
+            <p>
+                <input type="reset">
+            </p>
+
+            <p>
+                <button type="submit">Send</button>
+            </p>
+        </form>
+
+
+
+
+    </main>
+
+
+
+
+</body>
+
+</html>
